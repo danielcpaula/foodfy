@@ -27,9 +27,21 @@ server.get("/sobre", function(req, res){
   return res.render("sobre")
 })
 
-server.use(function(req, res) {
-  res.status(404).send("pagina não encontrada")
+server.get("/recipes", function(req, res) {
+  const id = req.query.id
+  
+  const receita = receitas.find(function(receita){
+    return receita.id == id
+  })
+
+  return res.render("recipes", {item: receita})
+
 })
+
+server.use(function(req, res) {
+  res.status(404).render("status-404")
+})
+
 
 server.listen(5000, function(){
   console.log("Server is running")

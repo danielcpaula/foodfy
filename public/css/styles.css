@@ -233,3 +233,125 @@ main.receitas {
   border-radius: 15px;
   margin-bottom: 25px;
 }
+/* ERRO 404 */
+
+.error__404 {
+  text-align: center
+}
+
+.error__404 h3{
+  padding-top: 50px;
+  font-size: 90px;
+}
+
+.error__404 p {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  font-size: 25px;
+
+}
+
+/* Recipes */
+.recipes{
+  align-items: center;
+  max-width: 940px;
+  margin: auto;
+}
+
+.image__receita {
+  margin-top: 50px;
+}
+
+.image__receita img {
+  width: 100%;
+  max-width: 940px;
+  background: #FBDFDB;
+  border-radius: 30px;
+  margin: auto;
+}
+
+.info__receita {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.info__receita h1 {
+  font-size: 36px;
+}
+
+.info__receita h3 {
+  font-size: 20px;
+  color: #777777;
+}
+
+
+.muda__estado button {
+  font-size: 1.2rem;
+  color: #999999;
+  border: none;
+  cursor: pointer;
+}
+
+.ingredientes {
+  margin-top: 50px;
+}
+
+.ingredientes h2 {
+  font-size: 24px;
+}
+
+.lista__ingredientes {
+  margin-top: 20px;
+  display: none;
+
+}
+
+.lista__ingredientes.active {
+  margin-top: 20px;
+  display: block;
+}
+
+
+.modo__preparo {
+  margin-top: 47px;
+}
+
+.lista__preparo.active {
+  margin-top: 20px;
+  display: block;
+}
+
+.lista__preparo {
+  margin-top: 20px;
+  display: none;
+}
+
+.info__adicionais {
+  margin-top: 47px;
+  margin-bottom: 73px;
+
+}
+
+
+.info__adicionais h2 {
+  font-size: 24px;
+}
+
+.lista__informacoes {
+  margin-top: 20px;
+  margin-bottom: 73px;
+  display: none;
+}
+
+.lista__informacoes.active {
+  display: block;
+}
+
+
+
+.lista__informacoes p {
+  text-align: justify;
+  font-size: 18px;
+  color: #444444;
+}
+
